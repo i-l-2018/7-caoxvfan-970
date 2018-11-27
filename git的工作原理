@@ -1,0 +1,5 @@
+git的工作总共分四层，其中三层是在自己本地也就是说git仓库，包括了工作目录、暂存区和本地仓库。（大部分操作均在暂存区执行）
+在本地文件有改动后，右键git GUI后出现在unstaged changes然后点击到暂存区，commit（提交）到本地仓库，还需要添加merge commit message（就是说明），然后
+再push到远程仓库。
+注意在进行操作时gitup仓库不得进行修改，否则需要从remote上fetch（取来，拿来），然后merge合并。
+
